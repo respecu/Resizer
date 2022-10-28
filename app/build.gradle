@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 
-group='com.github.hkk595'
+group='com.github.respecu'
 
 android {
     compileSdkVersion 33

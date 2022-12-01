@@ -37,6 +37,14 @@ public class Resizer {
         outputFilename = null;
     }
 
+    public Resizer(String outputDirPath) {
+        targetLength = 1080;
+        quality = 80;
+        compressFormat = Bitmap.CompressFormat.JPEG;
+        this.outputDirPath = outputDirPath;
+        outputFilename = null;
+    }
+
     /**
      * Set the target length of the image. You only need to specify the target length of the longer side (or either side if it's a square). Resizer will calculate the rest automatically.
      * @param targetLength The target image length in pixel. The default value is 1080.
